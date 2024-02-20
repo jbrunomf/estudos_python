@@ -17,3 +17,6 @@ def dobrar(numero):
 
 print('Utilizando funcão Dobrar: ', [dobrar(x) for x in lista])
     
+
+lista_nomes = ['Carlos', 'Rafaela', 'Joaquina', 'Maria']
+print([nome.upper() for nome in lista_nomes])
