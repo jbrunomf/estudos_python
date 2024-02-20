@@ -18,6 +18,10 @@ def dobrar(numero):
 print('Utilizando funcão Dobrar: ', [dobrar(x) for x in lista])
     
 
-lista_nomes = ['Carlos', 'Rafaela', 'Joaquina', 'Maria']
+lista_nomes = ['Carlos', 'Rafaela', 'Joaquina', 'Maria', 'Ana']
 lista_nomes_maiusculos = [nome.upper() for nome in lista_nomes]
 print(lista_nomes_maiusculos)
+
+# Apenas nomes que comecem com a letra A:
+nomes_iniciam_letra_a = [nome.upper() for nome in lista_nomes if nome[0] == 'A']
+print('Lista com nomes que iniciam com a letra A: ', nomes_iniciam_letra_a)
