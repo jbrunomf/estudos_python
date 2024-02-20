@@ -19,4 +19,5 @@ print('Utilizando funcão Dobrar: ', [dobrar(x) for x in lista])
     
 
 lista_nomes = ['Carlos', 'Rafaela', 'Joaquina', 'Maria']
-print([nome.upper() for nome in lista_nomes])
+lista_nomes_maiusculos = [nome.upper() for nome in lista_nomes]
+print(lista_nomes_maiusculos)
