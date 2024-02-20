@@ -11,4 +11,9 @@ lista_numeros_dobrados = [x * 2 for x in lista]
 print(lista_numeros_dobrados)
 
 
+# Também podemos utilizar funções:
+def dobrar(numero):
+    return numero * 2
+
+print('Utilizando funcão Dobrar: ', [dobrar(x) for x in lista])
     
